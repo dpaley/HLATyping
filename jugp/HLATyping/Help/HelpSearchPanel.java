@@ -127,12 +127,6 @@ public class HelpSearchPanel extends JPanel implements ActionListener, ListSelec
 			}
 		}
 
-		// This stupid rigmarole is because on OSX the updated list
-		// just won't show up for some reason.  Removing the list and
-		// re-adding it forces it to always show up.
-		//
-		// It's not even enough to remake the scroll pane.  You have
-		// to replace the entire JList.  Aaargh!
 		remove(resultsScrollPane);
 		revalidate();
 		resultList = new JList(listModel);
