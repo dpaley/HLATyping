@@ -1,5 +1,5 @@
 /**
- * Copyright Copyright 2017 Yu.Shirokov, D.Paley
+ * Copyright Copyright 2017 Yu.Shirokov, D.Paley***
  *
  *    This file is part of HLATypingApplication.
  *
